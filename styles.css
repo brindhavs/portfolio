@@ -1,0 +1,152 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-size: 24px;
+    color:blue;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a.contact {
+    background-color:skyblue;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.banner {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f4f7;
+}
+
+.content h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.portfolio-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.portfolio-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.portfolio-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #999;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.portfolio-item h3 {
+    font-size: 24px;
+    color:red;
+    margin-bottom: 15px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.skills {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skill-set {
+    margin-bottom: 2rem;
+}
+
+.skill-bar {
+    margin-bottom: 1rem;
+}
+
+progress {
+    width: 100%;
+    height: 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color:white;
+    border-radius: 4px;
+}
+
+progress::-webkit-progress-value {
+    background-color:aqua;
+    border-radius: 4px;
+}
